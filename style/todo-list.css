@@ -1,0 +1,66 @@
+
+.todo-list{
+    width:530px;
+    height: 1000px;
+    margin:auto;
+}
+.header-text{
+    font-size:35px;
+}
+.header-bottom{
+    display:flex;
+}
+.icon input{
+    height:40px;
+    border:none;
+    font-size: 25px;
+    outline: none;
+}
+.icon-img img{
+    height:32px;
+}
+.doing-list{
+    height:360px;
+    display: flex;
+    border:1px solid black;
+}
+.todo-task-img{
+    margin-left:6px
+}
+.todo-task{
+    width:40px;
+    height:350px;
+    font-size:20px;
+    display: column;
+    border:1px solid black;
+    overflow:hidden;
+    box-shadow: 0 0 5px black;
+ 
+    margin:5px;
+}
+.task-text{
+     width:30px;
+     height:278px ;
+     font-size: 30px;
+     margin:auto;
+     overflow: hidden;
+     text-overflow:ellipsis;
+}
+.title{
+    width:530px;
+    font-size: 30px;
+    margin-left:190px;
+}
+.doen-list{
+    height:360px;
+    display: flex;
+    overflow:hidden;
+    border:1px solid black;
+}
+.template{
+    display:none;
+}
+.list-bottom-img{
+    height:33px;
+    margin-left: 5px;
+}
